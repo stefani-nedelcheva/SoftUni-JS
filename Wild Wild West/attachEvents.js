@@ -1,8 +1,8 @@
 function attachEvents() {
     const baseUrl = 'https://baas.kinvey.com/';
-    const appKey = 'kid_B1n0E8cu4';
-    const username = 'tanya';
-    const password = '123456';
+    const appKey = '';
+    const username = '';
+    const password = '';
     const endpoint = 'players';
     const headers = {
         'Authorization': `Basic ${btoa(username + ':' + password)}`,
